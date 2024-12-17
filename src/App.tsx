@@ -1,8 +1,12 @@
 
+import CarArticle from "./components/CarArticle"
+
 function App() {
 
   return (
-    <h1 className="">Hello</h1>
+    <>
+      <CarArticle />
+    </>
   )
 }
 

@@ -1,12 +1,10 @@
 
-type Props = {
-    txt: string
-}
-
-const MainBtn = ({ txt }: Props) => {
+const MainBtn = () => {
   return (
     <a href="/">
-        <button>{txt}</button>
+        <button>
+            Learn More
+        </button>
     </a>
   )
 }
