@@ -5,7 +5,7 @@ type Props = {
 
 const MainText = ({ txt }: Props) => {
   return (
-    <p>{txt}</p>
+    <p className="text-transparent-white font-lexend mt-5 text-[18px]">{txt}</p>
   )
 }
 

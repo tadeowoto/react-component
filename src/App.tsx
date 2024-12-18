@@ -1,12 +1,10 @@
 
-import CarArticle from "./components/CarArticle"
+import MainLayout from "./components/MainLayout"
 
 function App() {
 
   return (
-    <>
-      <CarArticle />
-    </>
+    <MainLayout />
   )
 }
 
