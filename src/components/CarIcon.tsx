@@ -5,7 +5,7 @@ type Props = {
 
 const CarIcon = ({ url }: Props) => {
   return (
-    <img src={url} alt="Car icon" />
+    <img src={url} alt="Car icon" className="w-[60px]" />
   )
 }
 
